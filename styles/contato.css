@@ -1,0 +1,21 @@
+.contato {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.contato h2 {
+  margin-bottom: 15px;
+}
+.contato p {
+  max-width: 50ch;
+  color: var(--cor-cinza);
+  margin-bottom: 30px;
+}
+@media (max-width: 900px) {
+  .contato p {
+    max-width: 45ch;
+  }
+  .contato {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}

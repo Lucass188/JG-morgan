@@ -1,0 +1,19 @@
+:root {
+  --cor-preta: #000000;
+  --cor-branca: #ffffff;
+  --cor-cinza: #b3a4a4;
+  --cor-amarela: #ffd900;
+  --cor-azul: rgb(35, 35, 68);
+}
+.cor-preta {
+  background: #000000;
+}
+.cor-branca {
+  background: #ffffff;
+}
+.cor-cinza {
+  background: #b3a4a4;
+}
+.cor-azul {
+  background: rgb(35, 35, 68);
+}

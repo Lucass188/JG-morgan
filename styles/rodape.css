@@ -1,0 +1,11 @@
+.rodape{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.rodape ul{
+  display: flex;
+  gap: 15px ;
+}

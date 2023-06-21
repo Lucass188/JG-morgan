@@ -1,0 +1,33 @@
+.section-1 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 50px;
+}
+
+.section-1 p {
+  max-width: 50ch;
+  color: var(--cor-cinza);
+}
+.section-1 p + p {
+  margin-top: 10px;
+}
+@media (max-width: 900px) {
+  .section-1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .section-1 p + p {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .section-1 {
+    gap: 0;
+    grid-template-columns: 1fr;
+  }
+  .section-1 h2{
+    margin-bottom: 20px;
+  }
+}
